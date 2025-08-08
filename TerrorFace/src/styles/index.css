@@ -1,0 +1,34 @@
+:root {
+  --dragon-red: #e63946;
+  --dragon-orange: #f77f00;
+  --dragon-yellow: #fcbf49;
+  --dragon-dark: #1d3557;
+  --dragon-light: #f1faee;
+  --dragon-accent: #a8dadc;
+  --dragon-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --dragon-border: 2px solid var(--dragon-orange);
+}
+
+.dragon-bg {
+  background-color: var(--dragon-dark);
+  background-image: 
+    radial-gradient(circle at 10% 20%, var(--dragon-red) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--dragon-orange) 0%, transparent 20%);
+}
+
+.dragon-text {
+  background: linear-gradient(45deg, var(--dragon-red), var(--dragon-orange), var(--dragon-yellow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.dragon-pulse {
+  animation: dragonPulse 3s infinite;
+}
+
+@keyframes dragonPulse {
+  0% { box-shadow: 0 0 5px var(--dragon-red); }
+  50% { box-shadow: 0 0 20px var(--dragon-orange); }
+  100% { box-shadow: 0 0 5px var(--dragon-red); }
+}

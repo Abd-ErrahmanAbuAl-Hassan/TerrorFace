@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@tface.com",
+      "password": "admin@123",
+      "role": "superadmin",
+      "friends": [],
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Admin"
+    },
+    {
+      "id": "57vr5muf",
+      "username": "Aboda2003",
+      "email": "customer1@gmail.com",
+      "password": "asdiop",
+      "role": "user",
+      "friends": [],
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=rykmrel6",
+      "createdAt": "2025-08-05T22:37:03.065Z"
+    }
+  ],
+  "posts": [],
+  "comments": [],
+  "friendRequests": []
+}
